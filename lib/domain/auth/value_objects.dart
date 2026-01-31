@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_ddd/core/failures.dart';
-import 'package:flutter_ddd/core/value_objects.dart';
-import 'package:flutter_ddd/core/value_validators.dart';
+import 'package:flutter_ddd/domain/core/failures.dart';
+import 'package:flutter_ddd/domain/core/value_object.dart';
+import 'package:flutter_ddd/domain/core/value_validators.dart';
 
 @immutable
 class EmailAddress extends ValueObject<String> {
